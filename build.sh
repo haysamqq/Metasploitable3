@@ -10,6 +10,7 @@ min_vagrantlibvirt_ver="0.0.1"
 packer_bin="packer"
 packer_build_path="packer/builds"
 
+
 case "$1" in
     ubuntu1404)  echo "building ubuntu 1404"
                  os_full="ubuntu_1404"
